@@ -22,11 +22,11 @@ int main(){
     int input_number, iterator = 0;
 
     while (iterator < 5){
-        cout << "\n\nenter the number\n>>> ";
+        cout << "enter the number\n>>> ";
         cin >> input_number;
 
         if (isEven(input_number)) cout << input_number << " is even" << endl;
-        else cout << input_number << " is odd" << endl;
+        else cout << input_number << " is odd" << "\n\n";
 
         iterator++;
     }
